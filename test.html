@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extension Testing Page</title>
+    <!-- Intentionally missing meta description for test -->
+    
+    <!-- Empty link for testing empty links -->
+    <a href="">This is an empty link.</a>
+    
+    <!-- Additional modifications in the <head> would be done via JavaScript, so none needed here. -->
+</head>
+<body>
+    <!-- Image without alt attribute for existing test -->
+    <img src="placeholder.jpg" width="100">
+    
+    <!-- Image without title attribute for new test -->
+    <img src="placeholder-large.jpg" width="2000" height="1500">
+    
+    <!-- Deprecated elements -->
+    <font face="Arial" size="4">This is some text inside a deprecated font tag.</font>
+    <center>This text is centered using a deprecated tag.</center>
+    <marquee>This text will scroll if marquee is supported.</marquee>
+    
+    <!-- Inline styles for existing test -->
+    <div style="color: red;">This div has inline styles.</div>
+    
+    <!-- Non-semantic layout elements -->
+    <div class="container">
+        <div class="wrapper">
+            <div class="grid">
+                <div class="row">
+                    This is non-semantic layout using common class names.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Autoplaying media for existing test -->
+    <video autoplay loop>
+        <source src="placeholder-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <!-- Placeholder text with bad words for existing test -->
+    <p>This paragraph contains some bad word 1 bitch, maybe even a bad word 2 motherfucker or two. Don't forget about bad word 3 fuck.</p>
+    
+    <script src="your-tests-file.js"></script>
+</body>
+</html>
